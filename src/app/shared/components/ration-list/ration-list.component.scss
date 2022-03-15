@@ -1,0 +1,26 @@
+$enter-input-width: 40px;
+
+.list {
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__name {
+    width: calc(100% - $enter-input-width * 4);
+  }
+
+  &__grams-to-carbohydrate,
+  &__blood-glucose-index,
+  &__weigth,
+  &__rations {
+    max-width: $enter-input-width;
+  }
+
+  &__total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

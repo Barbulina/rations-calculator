@@ -1,0 +1,22 @@
+<form class="ration-form">
+  <mat-form-field class="ration-form__field" appearance="outline">
+    <mat-label>{{ 'FOOD' | translate }}</mat-label>
+    <input
+      type="text"
+      [placeholder]="'PICK_FOOD' | translate"
+      aria-label="FOOD"
+      matInput
+      [formControl]="myControl"
+      [matAutocomplete]="auto"
+    />
+    <mat-autocomplete
+      autoActiveFirstOption
+      #auto="matAutocomplete"
+      (optionSelected)="optionSelect()"
+    >
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option.name">
+        {{ option.name }}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

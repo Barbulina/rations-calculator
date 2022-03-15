@@ -1,0 +1,9 @@
+{
+  "FOOD": "alimento",
+  "PICK_FOOD": "busque un alimento",
+  "LIST" : "listado",
+  "TOTAL": "total",
+  "NAME" : "nombre",
+  "WEIGHT" : "peso en gramos",
+  "RATIONS" : "raciones"
+}

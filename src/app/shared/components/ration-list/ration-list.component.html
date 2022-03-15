@@ -1,0 +1,35 @@
+<h2>{{ 'LIST' | translate }}</h2>
+
+<div class="list">
+  <div class="list__item" *ngFor="let item of items; let i = index">
+    <app-blood-glucose-index
+      [bloodGlucoseIndex]="item?.bloodGlucoseIndex"
+    ></app-blood-glucose-index>
+    <mat-form-field [appearance]="appearance" class="list__name">
+      <mat-label>{{ 'NAME' | translate }}</mat-label>
+      <input matInput [value]="item?.name" [readonly]="true" />
+    </mat-form-field>
+    <mat-form-field [appearance]="appearance" class="list__grams-to-carbohydrate">
+      <mat-label>HC</mat-label>
+      <input type="number" matInput [value]="item?.gramsToCarbohydrate" [readonly]="true" />
+    </mat-form-field>
+    <mat-form-field [appearance]="appearance" class="list__weigth">
+      <mat-label>{{ 'WEIGHT' | translate }}</mat-label>
+      <input
+        matInput
+        maxlength="3"
+        type="number"
+        (change)="onWeightChange($event, item)"
+        [value]="item.weight || 0"
+      />
+    </mat-form-field>
+    <mat-form-field [appearance]="appearance" class="list__rations">
+      <mat-label>{{ 'RATIONS' | translate }}</mat-label>
+      <input matInput maxlength="3" [value]="item?.rations || 0" [readonly]="true" />
+    </mat-form-field>
+    <button mat-icon-button aria-label="delete item" (click)="removeItem(i)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</div>
+<div class="list__total" *ngIf="items.length > 0">{{ 'TOTAL' | translate }}: {{ total }}</div>
