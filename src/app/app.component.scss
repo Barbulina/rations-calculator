@@ -1,0 +1,15 @@
+$padding-base: 20px;
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  &__header {
+    flex: 0 0 64px;
+  }
+  &__content {
+    flex: 1 1 auto;
+    padding: $padding-base;
+  }
+}

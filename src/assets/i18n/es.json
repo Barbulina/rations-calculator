@@ -4,6 +4,7 @@
   "LIST" : "listado",
   "TOTAL": "total",
   "NAME" : "nombre",
-  "WEIGHT" : "peso en gramos",
-  "RATIONS" : "raciones"
+  "WEIGHT" : "peso(g)",
+  "RATIONS" : "raciones",
+  "RATIONS_CALCULATOR": "Calculadora de raciones"
 }

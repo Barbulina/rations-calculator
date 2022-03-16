@@ -4,6 +4,7 @@
   "LIST": "list",
   "TOTAL": "total",
   "NAME" : "name",
-  "WEIGHT" : "weight in grams",
-  "RATIONS" : "rations"
+  "WEIGHT" : "weight(g)",
+  "RATIONS" : "rations",
+  "RATIONS_CALCULATOR": "rations calculator"
 }

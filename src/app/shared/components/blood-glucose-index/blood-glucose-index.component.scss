@@ -1,6 +1,10 @@
-$diameter: 12px;
+$diameter: 24px;
 .blood-gluscose-index {
   width: $diameter;
   height: $diameter;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
