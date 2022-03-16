@@ -5,7 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class BloodGlucoseIndexColorPipe implements PipeTransform {
   transform(value: number | undefined, ...args: unknown[]): string {
-    console.log(value);
     if (!value) return 'green';
     if (value >= 70) return 'red';
     if (value >= 59) return 'orange';

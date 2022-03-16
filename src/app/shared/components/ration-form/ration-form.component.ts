@@ -25,7 +25,6 @@ export class RationFormComponent implements OnInit {
   }
 
   optionSelect() {
-    if (this.myControl.invalid) return;
     const value = this.myControl.value;
     const optionSelected = this.options.find((option) => option.name === value);
     this.myControl.setValue(undefined);
@@ -33,7 +32,6 @@ export class RationFormComponent implements OnInit {
   }
 
   private _filter(value: string): Ration[] {
-    console.log(value);
     if (!value) return this.options;
     const filterValue = value.toLowerCase();
 

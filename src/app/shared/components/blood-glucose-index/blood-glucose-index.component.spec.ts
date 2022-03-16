@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { BloodGlucoseIndexColorPipe } from '../../pipes/blood-glucose-index-color.pipe';
 import { BloodGlucoseIndexComponent } from './blood-glucose-index.component';
 
 describe('BloodGlucoseIndexComponent', () => {
@@ -8,7 +8,7 @@ describe('BloodGlucoseIndexComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BloodGlucoseIndexComponent]
+      declarations: [BloodGlucoseIndexComponent, BloodGlucoseIndexColorPipe]
     }).compileComponents();
   });
 

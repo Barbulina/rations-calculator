@@ -21,7 +21,6 @@ export class RationListComponent implements OnInit {
   }
 
   onWeightChange(event: any, item: Ration): void {
-    console.log(event.target.value, item.gramsToCarbohydrate);
     item.weight = event.target.value;
     item.rations = +(event.target.value / item.gramsToCarbohydrate).toFixed(2);
     this.calcTotal();
