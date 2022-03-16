@@ -49,4 +49,7 @@ jobs:
 
       - name: Test
         run: |
-          npm run test
+          npm run test -- --configuration production
+      - name: Deploy
+        run: |
+          npm run deploy
