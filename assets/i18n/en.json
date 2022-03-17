@@ -1,0 +1,10 @@
+{
+  "FOOD": "food",
+  "PICK_FOOD": "pick a food",
+  "LIST": "list",
+  "TOTAL": "total",
+  "NAME" : "name",
+  "WEIGHT" : "weight(g)",
+  "RATIONS" : "rations",
+  "RATIONS_CALCULATOR": "rations calculator"
+}

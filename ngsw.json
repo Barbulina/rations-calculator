@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1647506181718,
+  "index": "/rations-calculator/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/rations-calculator/favicon.ico",
+        "/rations-calculator/index.html",
+        "/rations-calculator/main.4fdc223f51cfdf04.js",
+        "/rations-calculator/manifest.webmanifest",
+        "/rations-calculator/polyfills.8517db88a5382c41.js",
+        "/rations-calculator/runtime.e8b9a2c424c56f9f.js",
+        "/rations-calculator/styles.07af13b1d45e4cea.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/rations-calculator/assets/i18n/en.json",
+        "/rations-calculator/assets/i18n/es.json",
+        "/rations-calculator/assets/icons/icon-128x128.png",
+        "/rations-calculator/assets/icons/icon-144x144.png",
+        "/rations-calculator/assets/icons/icon-152x152.png",
+        "/rations-calculator/assets/icons/icon-192x192.png",
+        "/rations-calculator/assets/icons/icon-384x384.png",
+        "/rations-calculator/assets/icons/icon-512x512.png",
+        "/rations-calculator/assets/icons/icon-72x72.png",
+        "/rations-calculator/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/rations-calculator/assets/i18n/en.json": "d439ee27a9d4a9517a1b957718621f4249aaff09",
+    "/rations-calculator/assets/i18n/es.json": "8ebe92bc9114a6ad47e092b08040f93e60c6cb06",
+    "/rations-calculator/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/rations-calculator/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/rations-calculator/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/rations-calculator/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/rations-calculator/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/rations-calculator/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/rations-calculator/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/rations-calculator/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/rations-calculator/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/rations-calculator/index.html": "6f9541746306b3cdf6b5c13cd41f7b8654d38ec4",
+    "/rations-calculator/main.4fdc223f51cfdf04.js": "a3f909531138565b3ed7365932db0e998e8baa50",
+    "/rations-calculator/manifest.webmanifest": "2ef5c3a9ec3021eed83836552e43c1c833f3a5c2",
+    "/rations-calculator/polyfills.8517db88a5382c41.js": "419f57c9f9d5d3890ad90683ca8e4e8a03e7ca26",
+    "/rations-calculator/runtime.e8b9a2c424c56f9f.js": "6f2f62e43ba3e4998772db189a67a878c9f943bf",
+    "/rations-calculator/styles.07af13b1d45e4cea.css": "1727f9ae92f2e6ad34b6f1ed025d571c4e24bd8d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
