@@ -5,9 +5,10 @@
 
   <div class="app__content">
     <app-ration-form
+      class="app__ration-form"
       (optionSelected)="optionSelected($event)"
       [options]="options"
     ></app-ration-form>
-    <app-ration-list [items]="items"></app-ration-list>
+    <app-ration-list class="app__ration-list" [items]="items"></app-ration-list>
   </div>
 </div>
