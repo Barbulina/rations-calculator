@@ -6,7 +6,7 @@
   "description": "A simple app to calculate the number of HC rations.",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/rations-calculator/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
@@ -40,6 +40,12 @@
     },
     {
       "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
