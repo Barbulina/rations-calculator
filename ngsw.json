@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648025575229,
+  "timestamp": 1648026378995,
   "index": "/rations-calculator/index.html",
   "assetGroups": [
     {
@@ -31,6 +31,7 @@
       "urls": [
         "/rations-calculator/assets/i18n/en.json",
         "/rations-calculator/assets/i18n/es.json",
+        "/rations-calculator/assets/icons/apple-touch-icon.png",
         "/rations-calculator/assets/icons/icon-128x128.png",
         "/rations-calculator/assets/icons/icon-144x144.png",
         "/rations-calculator/assets/icons/icon-152x152.png",
@@ -47,6 +48,7 @@
   "hashTable": {
     "/rations-calculator/assets/i18n/en.json": "d439ee27a9d4a9517a1b957718621f4249aaff09",
     "/rations-calculator/assets/i18n/es.json": "8ebe92bc9114a6ad47e092b08040f93e60c6cb06",
+    "/rations-calculator/assets/icons/apple-touch-icon.png": "7b8a53fc5f85357173fca835c2ffd22a0239fbb3",
     "/rations-calculator/assets/icons/icon-128x128.png": "11118a9707fb168cfbfddd4cde3c43c6a4cf4189",
     "/rations-calculator/assets/icons/icon-144x144.png": "e230832b1bfa0262c1b1d7e01b2d3b1b13242d7a",
     "/rations-calculator/assets/icons/icon-152x152.png": "54e8bdeb472afaac844ac64d5c0d6c2c19d4d189",
@@ -56,9 +58,9 @@
     "/rations-calculator/assets/icons/icon-72x72.png": "295ccc7029f73f0b0ddd8751e02b01ae500b9fe7",
     "/rations-calculator/assets/icons/icon-96x96.png": "fb415b205a705186fa8d2cd49d11189bbd01f0b7",
     "/rations-calculator/favicon.ico": "d8fd95429cf2b432c764e7951eac90ecf1282a39",
-    "/rations-calculator/index.html": "852e64c7c9c5e0a07a62052612de33d9ec3ebd23",
+    "/rations-calculator/index.html": "ae234a37b748c6cf1aea8a70098681b1a2fee208",
     "/rations-calculator/main.59e3ed2006ca07ea.js": "814b0b5cd0ab7c5c3ba4fa37adbf2b5f5f1b951d",
-    "/rations-calculator/manifest.webmanifest": "f77a8357af0635091d26467e9d71a8902c6c9b05",
+    "/rations-calculator/manifest.webmanifest": "c02b05f8141d404b9672bf65f6fd8af49f9705c7",
     "/rations-calculator/polyfills.8517db88a5382c41.js": "419f57c9f9d5d3890ad90683ca8e4e8a03e7ca26",
     "/rations-calculator/runtime.e8b9a2c424c56f9f.js": "6f2f62e43ba3e4998772db189a67a878c9f943bf",
     "/rations-calculator/styles.07af13b1d45e4cea.css": "1727f9ae92f2e6ad34b6f1ed025d571c4e24bd8d"
