@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648021529953,
+  "timestamp": 1648025575229,
   "index": "/rations-calculator/index.html",
   "assetGroups": [
     {
@@ -55,7 +55,7 @@
     "/rations-calculator/assets/icons/icon-512x512.png": "650456e1ed6c3d9e44ac8b5a626331142de6b79c",
     "/rations-calculator/assets/icons/icon-72x72.png": "295ccc7029f73f0b0ddd8751e02b01ae500b9fe7",
     "/rations-calculator/assets/icons/icon-96x96.png": "fb415b205a705186fa8d2cd49d11189bbd01f0b7",
-    "/rations-calculator/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/rations-calculator/favicon.ico": "d8fd95429cf2b432c764e7951eac90ecf1282a39",
     "/rations-calculator/index.html": "852e64c7c9c5e0a07a62052612de33d9ec3ebd23",
     "/rations-calculator/main.59e3ed2006ca07ea.js": "814b0b5cd0ab7c5c3ba4fa37adbf2b5f5f1b951d",
     "/rations-calculator/manifest.webmanifest": "f77a8357af0635091d26467e9d71a8902c6c9b05",
