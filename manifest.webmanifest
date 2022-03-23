@@ -1,11 +1,12 @@
 {
+  "id": "rationsCalculator",
   "name": "rations calculator",
   "short_name": "rations calculator",
   "theme_color": "#3f51b5",
   "background_color": "#fafafa",
   "description": "A simple app to calculate the number of HC rations.",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://barbulina.github.io/rations-calculator/",
   "start_url": "https://barbulina.github.io/rations-calculator/",
   "icons": [
     {
