@@ -6,7 +6,7 @@
   "description": "A simple app to calculate the number of HC rations.",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/rations-calculator/",
+  "start_url": "https://barbulina.github.io/rations-calculator/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

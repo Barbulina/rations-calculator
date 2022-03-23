@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648026378995,
+  "timestamp": 1648026788430,
   "index": "/rations-calculator/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/rations-calculator/favicon.ico",
         "/rations-calculator/index.html",
-        "/rations-calculator/main.59e3ed2006ca07ea.js",
+        "/rations-calculator/main.06b9f3738e185d3f.js",
         "/rations-calculator/manifest.webmanifest",
         "/rations-calculator/polyfills.8517db88a5382c41.js",
         "/rations-calculator/runtime.e8b9a2c424c56f9f.js",
@@ -58,9 +58,9 @@
     "/rations-calculator/assets/icons/icon-72x72.png": "295ccc7029f73f0b0ddd8751e02b01ae500b9fe7",
     "/rations-calculator/assets/icons/icon-96x96.png": "fb415b205a705186fa8d2cd49d11189bbd01f0b7",
     "/rations-calculator/favicon.ico": "d8fd95429cf2b432c764e7951eac90ecf1282a39",
-    "/rations-calculator/index.html": "ae234a37b748c6cf1aea8a70098681b1a2fee208",
-    "/rations-calculator/main.59e3ed2006ca07ea.js": "814b0b5cd0ab7c5c3ba4fa37adbf2b5f5f1b951d",
-    "/rations-calculator/manifest.webmanifest": "c02b05f8141d404b9672bf65f6fd8af49f9705c7",
+    "/rations-calculator/index.html": "9ea178068066016fe1c9a2a23322d3cc8995bbdb",
+    "/rations-calculator/main.06b9f3738e185d3f.js": "d10bb721fb6e6074e25e3642742fa2ad8b781c94",
+    "/rations-calculator/manifest.webmanifest": "bf80193587e10eb84237d455774eb1eca9960197",
     "/rations-calculator/polyfills.8517db88a5382c41.js": "419f57c9f9d5d3890ad90683ca8e4e8a03e7ca26",
     "/rations-calculator/runtime.e8b9a2c424c56f9f.js": "6f2f62e43ba3e4998772db189a67a878c9f943bf",
     "/rations-calculator/styles.07af13b1d45e4cea.css": "1727f9ae92f2e6ad34b6f1ed025d571c4e24bd8d"
