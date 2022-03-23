@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BloodGlucoseIndexComponent } from './shared/components/blood-glucose-index/blood-glucose-index.component';
@@ -44,7 +43,7 @@ export function createTranslateLoader(http: HttpClient) {
       }
     }),
     ServiceWorkerModule.register('ngsw-worker.js', {
-      enabled: environment.production,
+      enabled: true,
       registrationStrategy: 'registerImmediately'
     })
   ],
