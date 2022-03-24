@@ -21,6 +21,7 @@
       >
       <mat-list-item>
         <app-blood-glucose-index
+          class="info-dialog__gi"
           [bloodGlucoseIndex]="100"
           [hideNumber]="true"
         ></app-blood-glucose-index>
@@ -28,6 +29,7 @@
       </mat-list-item>
       <mat-list-item>
         <app-blood-glucose-index
+          class="info-dialog__gi"
           [bloodGlucoseIndex]="60"
           [hideNumber]="true"
         ></app-blood-glucose-index>
@@ -35,14 +37,18 @@
       </mat-list-item>
       <mat-list-item>
         <app-blood-glucose-index
+          class="info-dialog__gi"
           [bloodGlucoseIndex]="30"
           [hideNumber]="true"
         ></app-blood-glucose-index>
         {{ 'LOW_GLUCEMIC_INDEX_TEXT' | translate }}
       </mat-list-item>
-      <mat-list-item>
-        {{ 'GLUCEMIC_INDEX_TEXT_DESCRIPTION' | translate }}
-      </mat-list-item>
     </mat-list>
+    <p>
+      {{ 'GLUCEMIC_INDEX_TEXT_DESCRIPTION' | translate }}
+    </p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="close()">{{ 'CLOSE' | translate }}</button>
   </div>
 </div>
