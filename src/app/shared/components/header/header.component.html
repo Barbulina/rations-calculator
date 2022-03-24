@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="header">
+  <span>{{ 'RATIONS_CALCULATOR' | translate }}</span>
+  <span class="header__spacer"></span>
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>info</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item href="mailto:{{ contact.email }}">{{ 'CONTACT' | translate }}</a>
+    <a mat-menu-item (click)="openInfoDialog()">{{ 'LEGEND' | translate }}</a>
+  </mat-menu>
+</mat-toolbar>

@@ -14,6 +14,8 @@ import { RationListComponent } from './shared/components/ration-list/ration-list
 import { CONFIG } from './shared/config';
 import { AngularMaterialModule } from './shared/modules/angular-material/angular-material.module';
 import { BloodGlucoseIndexColorPipe } from './shared/pipes/blood-glucose-index-color.pipe';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { InfoDialogComponent } from './shared/components/info-dialog/info-dialog.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -25,7 +27,9 @@ export function createTranslateLoader(http: HttpClient) {
     RationListComponent,
     RationFormComponent,
     BloodGlucoseIndexComponent,
-    BloodGlucoseIndexColorPipe
+    BloodGlucoseIndexColorPipe,
+    HeaderComponent,
+    InfoDialogComponent
   ],
   imports: [
     BrowserModule,

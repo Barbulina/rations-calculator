@@ -1,0 +1,48 @@
+<div class="info-dialog">
+  <h2 mat-dialog-title>{{ 'INFO' | translate }}</h2>
+  <div mat-dialog-content>
+    <mat-list>
+      <mat-list-item
+        >{{ 'CARBOHYDRATES_NOMENCLATURE' | translate }} = {{ 'CARBOHYDRATES' | translate }}
+      </mat-list-item>
+      <mat-list-item>
+        10g {{ 'CARBOHYDRATES_NOMENCLATURE' | translate }} = 1 {{ 'RATIONS' | translate }}
+        {{ 'CARBOHYDRATES_NOMENCLATURE' | translate }}
+      </mat-list-item>
+    </mat-list>
+
+    <mat-list>
+      <mat-list-item>
+        <h3>{{ 'GLUCEMIC_INDEX' | translate }}</h3>
+      </mat-list-item>
+      <mat-list-item
+        >{{ 'GLUCEMIC_INDEX_NOMENCLATURE' | translate }} =
+        {{ 'GLUCEMIC_INDEX' | translate }}</mat-list-item
+      >
+      <mat-list-item>
+        <app-blood-glucose-index
+          [bloodGlucoseIndex]="100"
+          [hideNumber]="true"
+        ></app-blood-glucose-index>
+        {{ 'HIGH_GLUCEMIC_INDEX_TEXT' | translate }}
+      </mat-list-item>
+      <mat-list-item>
+        <app-blood-glucose-index
+          [bloodGlucoseIndex]="60"
+          [hideNumber]="true"
+        ></app-blood-glucose-index>
+        {{ 'MEDIUM_GLUCEMIC_INDEX_TEXT' | translate }}
+      </mat-list-item>
+      <mat-list-item>
+        <app-blood-glucose-index
+          [bloodGlucoseIndex]="30"
+          [hideNumber]="true"
+        ></app-blood-glucose-index>
+        {{ 'LOW_GLUCEMIC_INDEX_TEXT' | translate }}
+      </mat-list-item>
+      <mat-list-item>
+        {{ 'GLUCEMIC_INDEX_TEXT_DESCRIPTION' | translate }}
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>

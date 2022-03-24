@@ -8,6 +8,12 @@ export const CONFIG: Config = {
   language: {
     default: 'es',
     avalaible: ['en', 'es']
+  },
+  contact: {
+    email: 'barbulina@gmail.com',
+    dataSourceLink: 'www.fundaciondiabetes.org',
+    dataSourceName: 'Fundación para la Diabetes',
+    dataSourceCreator: 'Serafín Murillo'
   }
 };
 
@@ -19,5 +25,11 @@ interface Config {
   language: {
     default: 'en' | 'es';
     avalaible: string[];
+  };
+  contact: {
+    email: string;
+    dataSourceLink: string;
+    dataSourceName: string;
+    dataSourceCreator: string;
   };
 }

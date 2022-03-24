@@ -1,3 +1,5 @@
 <div class="blood-gluscose-index" [style.background]="bloodGlucoseIndex | bloodGlucoseIndexColor">
-  {{ bloodGlucoseIndex }}
+  <ng-container *ngIf="!hideNumber">
+    {{ bloodGlucoseIndex }}
+  </ng-container>
 </div>

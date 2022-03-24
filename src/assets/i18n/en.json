@@ -1,4 +1,7 @@
 {
+  "INFO" : "info",
+  "LEGEND" : "legend",
+  "CONTACT" : "contact",
   "FOOD": "food",
   "PICK_FOOD": "pick a food",
   "LIST": "list",
@@ -6,5 +9,14 @@
   "NAME" : "name",
   "WEIGHT" : "weight(g)",
   "RATIONS" : "rations",
-  "RATIONS_CALCULATOR": "rations calculator"
+  "RATION" : "ration",
+  "RATIONS_CALCULATOR": "rations calculator",
+  "CARBOHYDRATES" : "carbon hydrates",
+  "CARBOHYDRATES_NOMENCLATURE": "CH",
+  "GLUCEMIC_INDEX": "glucemic index",
+  "GLUCEMIC_INDEX_NOMENCLATURE": "GI",
+  "HIGH_GLUCEMIC_INDEX_TEXT": "High (more than 70)",
+  "MEDIUM_GLUCEMIC_INDEX_TEXT":"Medium (56, 69)",
+  "LOW_GLUCEMIC_INDEX_TEXT":"Low (less than 56)",
+  "GLUCEMIC_INDEX_TEXT_DESCRIPTION":"Food with empty value is food without glucemic index data."
 }

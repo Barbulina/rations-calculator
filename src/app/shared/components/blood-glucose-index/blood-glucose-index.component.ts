@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class BloodGlucoseIndexComponent {
   @Input() bloodGlucoseIndex: number | undefined = 0;
+  @Input() hideNumber: boolean = false;
 }
