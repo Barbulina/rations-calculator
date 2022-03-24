@@ -1,4 +1,7 @@
 {
+  "INFO" : "información",
+  "LEGEND" : "leyenda",
+  "CONTACT" : "contacto",
   "FOOD": "alimento",
   "PICK_FOOD": "busque un alimento",
   "LIST" : "listado",
@@ -6,5 +9,14 @@
   "NAME" : "nombre",
   "WEIGHT" : "peso(g)",
   "RATIONS" : "raciones",
-  "RATIONS_CALCULATOR": "Calculadora de raciones"
+  "RATION" : "ración",
+  "RATIONS_CALCULATOR": "Calculadora de raciones",
+  "CARBOHYDRATES" : "hidratos de carbono",
+  "CARBOHYDRATES_NOMENCLATURE": "HC",
+  "GLUCEMIC_INDEX": "indice glucémico",
+  "GLUCEMIC_INDEX_NOMENCLATURE": "IG",
+  "HIGH_GLUCEMIC_INDEX_TEXT": "Elevado (más de 70)",
+  "MEDIUM_GLUCEMIC_INDEX_TEXT":"Moderado (56, 69)",
+  "LOW_GLUCEMIC_INDEX_TEXT":"Bajo (menos de 56)",
+  "GLUCEMIC_INDEX_TEXT_DESCRIPTION":"Los alimentos que en la tabla aparecen sin ningún valor en la casilla de IG es poruqe se desconoce la información de ese alimento en cuestión."
 }
