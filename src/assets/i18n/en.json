@@ -1,6 +1,7 @@
 {
   "INFO" : "info",
   "LEGEND" : "legend",
+  "LANGUAGE" : "language",
   "CONTACT" : "contact",
   "FOOD": "food",
   "PICK_FOOD": "pick a food",

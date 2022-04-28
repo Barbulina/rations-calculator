@@ -4,8 +4,15 @@
   <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
     <mat-icon>info</mat-icon>
   </button>
+
   <mat-menu #menu="matMenu">
     <a mat-menu-item href="mailto:{{ contact.email }}">{{ 'CONTACT' | translate }}</a>
     <a mat-menu-item (click)="openInfoDialog()">{{ 'LEGEND' | translate }}</a>
+    <a mat-menu-item [matMenuTriggerFor]="languages">{{ 'LANGUAGE' | translate }}</a>
+  </mat-menu>
+
+  <mat-menu #languages="matMenu">
+    <a mat-menu-item (click)="changeLanguage('es')">ES</a>
+    <a mat-menu-item (click)="changeLanguage('en')">EN</a>
   </mat-menu>
 </mat-toolbar>

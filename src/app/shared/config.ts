@@ -6,6 +6,7 @@ export const CONFIG: Config = {
     formArparience: 'legacy'
   },
   language: {
+    editable: true,
     default: 'es',
     avalaible: ['en', 'es']
   },
@@ -23,6 +24,7 @@ interface Config {
     formArparience: MatFormFieldAppearance;
   };
   language: {
+    editable: boolean;
     default: 'en' | 'es';
     avalaible: string[];
   };
